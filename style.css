@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 100%;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    
+}
+
+.header{
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+}
+.header .icons{
+    margin-left: auto;
+    padding-left: 1rem;
+}
+.header .icons i{
+    padding-right: 1rem;
+    font-size: larger;
+}
+.header .logo{
+    padding-left:1rem;
+}
+.header .logo .main-logo{
+    border: solid;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.main-body{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main-body .center{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-body .main-logo{
+   
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 2rem; */
+}
+
+/* .main-body .center .main-logo .dashline{
+    position: absolute;
+    width: 4.5rem;
+    height: 38.1%;
+    transform: rotate(15deg);
+    right: 24.7%;
+    border: 5px solid #009A4E;
+    background-color: white;
+} */
+
+.main-body .center .main-logo .tagline{
+    font-weight: 600;
+    font-size: 1.4rem
+}
+.main-body .center .main-logo .act-logo{
+    
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 250px 0 0 250px;
+    padding:0 3rem 0 2rem;
+    border: 5px solid #009A4E;
+}
+.main-body .center .main-logo .act-logo .logo-circle{
+    background-color: #009A4E;
+    flex: 0.3;
+    margin: 5%;
+    border-radius: 100%; 
+    display: flex;
+    padding: 0 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size:5.5rem;
+}
+.main-body .center .main-logo .act-logo .logo-circle h1{
+    color: aliceblue;
+    font-style: italic;
+}
+
+.main-body .center .main-logo .act-logo .logo-text{
+    flex: 0.65;
+    display: flex;
+    justify-content: center;
+    font-family: 'ITC Franklin Gothic Std Bk Cd';
+    color: red;
+    font-weight:bolder;
+    font-style: italic;
+    align-items: center;
+    font-size: 9rem;
+}
+.main-body .download-link{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    
+}
+
+.main-body .download-link .item{
+    height: 4rem;
+    padding: 1rem;
+    border: solid;
+}
+
+/* .main-body .left{
+    width: 10%;
+}
+.main-body .right{
+    width: 10%;
+} */
+
+
+.footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
