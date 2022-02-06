@@ -4,6 +4,6 @@
 https://github.com/HrishikeshMahalle/Castrol-UI/blob/AII/Web%20capture_6-2-2022_21459_.jpeg
 ## Responsive Image
 ![Responsive Image UI Component](https://github.com/HrishikeshMahalle/Castrol-UI/blob/AII/Web%20capture_6-2-2022_21459_.jpeg)
-##alertBox Image
-![Alert Box Image](https://github.com/HrishikeshMahalle/Castrol-UI/blob/AII/Web%20capture_6-2-2022_21754_.jpeg)
+##AlertBox Image
+![Alert Box Image](https://github.com/HrishikeshMahalle/Castrol-UI/blob/AII/Web%20capture_6-2-2022_214754_.jpeg)
 
